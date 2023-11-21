@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct CardList<ViewModel: CardListViewModel>: View {
+struct CardListView<ViewModel: CardListViewModel>: View {
     @ObservedObject
     var viewModel: ViewModel
     

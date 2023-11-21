@@ -11,7 +11,7 @@ import SwiftUI
 struct VidenteCaindoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CardListViewFactory.make()
         }
     }
 }

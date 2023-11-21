@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1231BA3C2B0D03CB00BB168C /* BasicNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 1231BA3B2B0D03CB00BB168C /* BasicNetwork */; };
+		1231BA3F2B0D066800BB168C /* ScryfallEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1231BA3E2B0D066800BB168C /* ScryfallEndpoint.swift */; };
+		1231BA412B0D328200BB168C /* ScryfallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1231BA402B0D328200BB168C /* ScryfallService.swift */; };
+		1231BA432B0D38DF00BB168C /* CardPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1231BA422B0D38DF00BB168C /* CardPayload.swift */; };
+		1231BA462B0D391600BB168C /* CardPagePayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1231BA452B0D391600BB168C /* CardPagePayload.swift */; };
+		1283DA232B0D483C00EC550B /* ScryfallServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283DA222B0D483C00EC550B /* ScryfallServiceFactory.swift */; };
+		1283DA262B0D4B1D00EC550B /* CardListViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283DA252B0D4B1D00EC550B /* CardListViewFactory.swift */; };
 		12B053A92B0CE5C100FE9D81 /* VidenteCaindoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053A82B0CE5C100FE9D81 /* VidenteCaindoApp.swift */; };
 		12B053AB2B0CE5C100FE9D81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053AA2B0CE5C100FE9D81 /* ContentView.swift */; };
 		12B053AD2B0CE5C300FE9D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B053AC2B0CE5C300FE9D81 /* Assets.xcassets */; };
@@ -15,7 +21,7 @@
 		12B053BA2B0CE5C400FE9D81 /* VidenteCaindoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053B92B0CE5C400FE9D81 /* VidenteCaindoTests.swift */; };
 		12B053C42B0CE5C400FE9D81 /* VidenteCaindoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053C32B0CE5C400FE9D81 /* VidenteCaindoUITests.swift */; };
 		12B053C62B0CE5C400FE9D81 /* VidenteCaindoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053C52B0CE5C400FE9D81 /* VidenteCaindoUITestsLaunchTests.swift */; };
-		12B053D42B0CEC8C00FE9D81 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053D32B0CEC8C00FE9D81 /* CardList.swift */; };
+		12B053D42B0CEC8C00FE9D81 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053D32B0CEC8C00FE9D81 /* CardListView.swift */; };
 		12B053D72B0CED5300FE9D81 /* CardCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053D62B0CED5300FE9D81 /* CardCellView.swift */; };
 		12B053D92B0CEE2100FE9D81 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053D82B0CEE2100FE9D81 /* CardListViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1231BA3E2B0D066800BB168C /* ScryfallEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScryfallEndpoint.swift; sourceTree = "<group>"; };
+		1231BA402B0D328200BB168C /* ScryfallService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScryfallService.swift; sourceTree = "<group>"; };
+		1231BA422B0D38DF00BB168C /* CardPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPayload.swift; sourceTree = "<group>"; };
+		1231BA452B0D391600BB168C /* CardPagePayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPagePayload.swift; sourceTree = "<group>"; };
+		1283DA222B0D483C00EC550B /* ScryfallServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScryfallServiceFactory.swift; sourceTree = "<group>"; };
+		1283DA252B0D4B1D00EC550B /* CardListViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewFactory.swift; sourceTree = "<group>"; };
 		12B053A52B0CE5C100FE9D81 /* VidenteCaindo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidenteCaindo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B053A82B0CE5C100FE9D81 /* VidenteCaindoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidenteCaindoApp.swift; sourceTree = "<group>"; };
 		12B053AA2B0CE5C100FE9D81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +60,7 @@
 		12B053BF2B0CE5C400FE9D81 /* VidenteCaindoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidenteCaindoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B053C32B0CE5C400FE9D81 /* VidenteCaindoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidenteCaindoUITests.swift; sourceTree = "<group>"; };
 		12B053C52B0CE5C400FE9D81 /* VidenteCaindoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidenteCaindoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		12B053D32B0CEC8C00FE9D81 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		12B053D32B0CEC8C00FE9D81 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
 		12B053D62B0CED5300FE9D81 /* CardCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCellView.swift; sourceTree = "<group>"; };
 		12B053D82B0CEE2100FE9D81 /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +91,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1231BA3D2B0D056700BB168C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1283DA212B0D482E00EC550B /* Scryfall */,
+				1231BA442B0D390800BB168C /* Models */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1231BA442B0D390800BB168C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1231BA422B0D38DF00BB168C /* CardPayload.swift */,
+				1231BA452B0D391600BB168C /* CardPagePayload.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1283DA212B0D482E00EC550B /* Scryfall */ = {
+			isa = PBXGroup;
+			children = (
+				1231BA3E2B0D066800BB168C /* ScryfallEndpoint.swift */,
+				1231BA402B0D328200BB168C /* ScryfallService.swift */,
+				1283DA222B0D483C00EC550B /* ScryfallServiceFactory.swift */,
+			);
+			path = Scryfall;
+			sourceTree = "<group>";
+		};
 		12B0539C2B0CE5C100FE9D81 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +142,7 @@
 		12B053A72B0CE5C100FE9D81 /* VidenteCaindo */ = {
 			isa = PBXGroup;
 			children = (
+				1231BA3D2B0D056700BB168C /* Network */,
 				12B053D22B0CEC7C00FE9D81 /* Scenes */,
 				12B053A82B0CE5C100FE9D81 /* VidenteCaindoApp.swift */,
 				12B053AA2B0CE5C100FE9D81 /* ContentView.swift */,
@@ -147,9 +188,10 @@
 		12B053D52B0CED4200FE9D81 /* CardList */ = {
 			isa = PBXGroup;
 			children = (
-				12B053D32B0CEC8C00FE9D81 /* CardList.swift */,
+				12B053D32B0CEC8C00FE9D81 /* CardListView.swift */,
 				12B053D62B0CED5300FE9D81 /* CardCellView.swift */,
 				12B053D82B0CEE2100FE9D81 /* CardListViewModel.swift */,
+				1283DA252B0D4B1D00EC550B /* CardListViewFactory.swift */,
 			);
 			path = CardList;
 			sourceTree = "<group>";
@@ -290,9 +332,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1231BA462B0D391600BB168C /* CardPagePayload.swift in Sources */,
+				1231BA432B0D38DF00BB168C /* CardPayload.swift in Sources */,
+				1283DA262B0D4B1D00EC550B /* CardListViewFactory.swift in Sources */,
+				1231BA3F2B0D066800BB168C /* ScryfallEndpoint.swift in Sources */,
 				12B053D92B0CEE2100FE9D81 /* CardListViewModel.swift in Sources */,
+				1283DA232B0D483C00EC550B /* ScryfallServiceFactory.swift in Sources */,
+				1231BA412B0D328200BB168C /* ScryfallService.swift in Sources */,
 				12B053AB2B0CE5C100FE9D81 /* ContentView.swift in Sources */,
-				12B053D42B0CEC8C00FE9D81 /* CardList.swift in Sources */,
+				12B053D42B0CEC8C00FE9D81 /* CardListView.swift in Sources */,
 				12B053D72B0CED5300FE9D81 /* CardCellView.swift in Sources */,
 				12B053A92B0CE5C100FE9D81 /* VidenteCaindoApp.swift in Sources */,
 			);
