@@ -14,6 +14,9 @@
 		12B053BA2B0CE5C400FE9D81 /* VidenteCaindoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053B92B0CE5C400FE9D81 /* VidenteCaindoTests.swift */; };
 		12B053C42B0CE5C400FE9D81 /* VidenteCaindoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053C32B0CE5C400FE9D81 /* VidenteCaindoUITests.swift */; };
 		12B053C62B0CE5C400FE9D81 /* VidenteCaindoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053C52B0CE5C400FE9D81 /* VidenteCaindoUITestsLaunchTests.swift */; };
+		12B053D42B0CEC8C00FE9D81 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053D32B0CEC8C00FE9D81 /* CardList.swift */; };
+		12B053D72B0CED5300FE9D81 /* CardCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053D62B0CED5300FE9D81 /* CardCellView.swift */; };
+		12B053D92B0CEE2100FE9D81 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053D82B0CEE2100FE9D81 /* CardListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		12B053BF2B0CE5C400FE9D81 /* VidenteCaindoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidenteCaindoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B053C32B0CE5C400FE9D81 /* VidenteCaindoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidenteCaindoUITests.swift; sourceTree = "<group>"; };
 		12B053C52B0CE5C400FE9D81 /* VidenteCaindoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidenteCaindoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12B053D32B0CEC8C00FE9D81 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		12B053D62B0CED5300FE9D81 /* CardCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCellView.swift; sourceTree = "<group>"; };
+		12B053D82B0CEE2100FE9D81 /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		12B053A72B0CE5C100FE9D81 /* VidenteCaindo */ = {
 			isa = PBXGroup;
 			children = (
+				12B053D22B0CEC7C00FE9D81 /* Scenes */,
 				12B053A82B0CE5C100FE9D81 /* VidenteCaindoApp.swift */,
 				12B053AA2B0CE5C100FE9D81 /* ContentView.swift */,
 				12B053AC2B0CE5C300FE9D81 /* Assets.xcassets */,
@@ -125,6 +132,24 @@
 				12B053C52B0CE5C400FE9D81 /* VidenteCaindoUITestsLaunchTests.swift */,
 			);
 			path = VidenteCaindoUITests;
+			sourceTree = "<group>";
+		};
+		12B053D22B0CEC7C00FE9D81 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				12B053D52B0CED4200FE9D81 /* CardList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		12B053D52B0CED4200FE9D81 /* CardList */ = {
+			isa = PBXGroup;
+			children = (
+				12B053D32B0CEC8C00FE9D81 /* CardList.swift */,
+				12B053D62B0CED5300FE9D81 /* CardCellView.swift */,
+				12B053D82B0CEE2100FE9D81 /* CardListViewModel.swift */,
+			);
+			path = CardList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B053D92B0CEE2100FE9D81 /* CardListViewModel.swift in Sources */,
 				12B053AB2B0CE5C100FE9D81 /* ContentView.swift in Sources */,
+				12B053D42B0CEC8C00FE9D81 /* CardList.swift in Sources */,
+				12B053D72B0CED5300FE9D81 /* CardCellView.swift in Sources */,
 				12B053A92B0CE5C100FE9D81 /* VidenteCaindoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
