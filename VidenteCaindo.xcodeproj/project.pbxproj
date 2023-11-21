@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B053A92B0CE5C100FE9D81 /* VidenteCaindoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053A82B0CE5C100FE9D81 /* VidenteCaindoApp.swift */; };
+		12B053AB2B0CE5C100FE9D81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053AA2B0CE5C100FE9D81 /* ContentView.swift */; };
+		12B053AD2B0CE5C300FE9D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B053AC2B0CE5C300FE9D81 /* Assets.xcassets */; };
+		12B053B02B0CE5C300FE9D81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B053AF2B0CE5C300FE9D81 /* Preview Assets.xcassets */; };
+		12B053BA2B0CE5C400FE9D81 /* VidenteCaindoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053B92B0CE5C400FE9D81 /* VidenteCaindoTests.swift */; };
+		12B053C42B0CE5C400FE9D81 /* VidenteCaindoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053C32B0CE5C400FE9D81 /* VidenteCaindoUITests.swift */; };
+		12B053C62B0CE5C400FE9D81 /* VidenteCaindoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B053C52B0CE5C400FE9D81 /* VidenteCaindoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12B053B62B0CE5C400FE9D81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12B0539D2B0CE5C100FE9D81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12B053A42B0CE5C100FE9D81;
+			remoteInfo = VidenteCaindo;
+		};
+		12B053C02B0CE5C400FE9D81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12B0539D2B0CE5C100FE9D81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12B053A42B0CE5C100FE9D81;
+			remoteInfo = VidenteCaindo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12B053A52B0CE5C100FE9D81 /* VidenteCaindo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidenteCaindo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B053A82B0CE5C100FE9D81 /* VidenteCaindoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidenteCaindoApp.swift; sourceTree = "<group>"; };
+		12B053AA2B0CE5C100FE9D81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12B053AC2B0CE5C300FE9D81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12B053AF2B0CE5C300FE9D81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12B053B52B0CE5C400FE9D81 /* VidenteCaindoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidenteCaindoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B053B92B0CE5C400FE9D81 /* VidenteCaindoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidenteCaindoTests.swift; sourceTree = "<group>"; };
+		12B053BF2B0CE5C400FE9D81 /* VidenteCaindoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidenteCaindoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B053C32B0CE5C400FE9D81 /* VidenteCaindoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidenteCaindoUITests.swift; sourceTree = "<group>"; };
+		12B053C52B0CE5C400FE9D81 /* VidenteCaindoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidenteCaindoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12B053A22B0CE5C100FE9D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B053B22B0CE5C400FE9D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B053BC2B0CE5C400FE9D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12B0539C2B0CE5C100FE9D81 = {
+			isa = PBXGroup;
+			children = (
+				12B053A72B0CE5C100FE9D81 /* VidenteCaindo */,
+				12B053B82B0CE5C400FE9D81 /* VidenteCaindoTests */,
+				12B053C22B0CE5C400FE9D81 /* VidenteCaindoUITests */,
+				12B053A62B0CE5C100FE9D81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12B053A62B0CE5C100FE9D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12B053A52B0CE5C100FE9D81 /* VidenteCaindo.app */,
+				12B053B52B0CE5C400FE9D81 /* VidenteCaindoTests.xctest */,
+				12B053BF2B0CE5C400FE9D81 /* VidenteCaindoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12B053A72B0CE5C100FE9D81 /* VidenteCaindo */ = {
+			isa = PBXGroup;
+			children = (
+				12B053A82B0CE5C100FE9D81 /* VidenteCaindoApp.swift */,
+				12B053AA2B0CE5C100FE9D81 /* ContentView.swift */,
+				12B053AC2B0CE5C300FE9D81 /* Assets.xcassets */,
+				12B053AE2B0CE5C300FE9D81 /* Preview Content */,
+			);
+			path = VidenteCaindo;
+			sourceTree = "<group>";
+		};
+		12B053AE2B0CE5C300FE9D81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				12B053AF2B0CE5C300FE9D81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12B053B82B0CE5C400FE9D81 /* VidenteCaindoTests */ = {
+			isa = PBXGroup;
+			children = (
+				12B053B92B0CE5C400FE9D81 /* VidenteCaindoTests.swift */,
+			);
+			path = VidenteCaindoTests;
+			sourceTree = "<group>";
+		};
+		12B053C22B0CE5C400FE9D81 /* VidenteCaindoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12B053C32B0CE5C400FE9D81 /* VidenteCaindoUITests.swift */,
+				12B053C52B0CE5C400FE9D81 /* VidenteCaindoUITestsLaunchTests.swift */,
+			);
+			path = VidenteCaindoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12B053A42B0CE5C100FE9D81 /* VidenteCaindo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B053C92B0CE5C400FE9D81 /* Build configuration list for PBXNativeTarget "VidenteCaindo" */;
+			buildPhases = (
+				12B053A12B0CE5C100FE9D81 /* Sources */,
+				12B053A22B0CE5C100FE9D81 /* Frameworks */,
+				12B053A32B0CE5C100FE9D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VidenteCaindo;
+			productName = VidenteCaindo;
+			productReference = 12B053A52B0CE5C100FE9D81 /* VidenteCaindo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12B053B42B0CE5C400FE9D81 /* VidenteCaindoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B053CC2B0CE5C400FE9D81 /* Build configuration list for PBXNativeTarget "VidenteCaindoTests" */;
+			buildPhases = (
+				12B053B12B0CE5C400FE9D81 /* Sources */,
+				12B053B22B0CE5C400FE9D81 /* Frameworks */,
+				12B053B32B0CE5C400FE9D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B053B72B0CE5C400FE9D81 /* PBXTargetDependency */,
+			);
+			name = VidenteCaindoTests;
+			productName = VidenteCaindoTests;
+			productReference = 12B053B52B0CE5C400FE9D81 /* VidenteCaindoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12B053BE2B0CE5C400FE9D81 /* VidenteCaindoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B053CF2B0CE5C400FE9D81 /* Build configuration list for PBXNativeTarget "VidenteCaindoUITests" */;
+			buildPhases = (
+				12B053BB2B0CE5C400FE9D81 /* Sources */,
+				12B053BC2B0CE5C400FE9D81 /* Frameworks */,
+				12B053BD2B0CE5C400FE9D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B053C12B0CE5C400FE9D81 /* PBXTargetDependency */,
+			);
+			name = VidenteCaindoUITests;
+			productName = VidenteCaindoUITests;
+			productReference = 12B053BF2B0CE5C400FE9D81 /* VidenteCaindoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12B0539D2B0CE5C100FE9D81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					12B053A42B0CE5C100FE9D81 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					12B053B42B0CE5C400FE9D81 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 12B053A42B0CE5C100FE9D81;
+					};
+					12B053BE2B0CE5C400FE9D81 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 12B053A42B0CE5C100FE9D81;
+					};
+				};
+			};
+			buildConfigurationList = 12B053A02B0CE5C100FE9D81 /* Build configuration list for PBXProject "VidenteCaindo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12B0539C2B0CE5C100FE9D81;
+			productRefGroup = 12B053A62B0CE5C100FE9D81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12B053A42B0CE5C100FE9D81 /* VidenteCaindo */,
+				12B053B42B0CE5C400FE9D81 /* VidenteCaindoTests */,
+				12B053BE2B0CE5C400FE9D81 /* VidenteCaindoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12B053A32B0CE5C100FE9D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B053B02B0CE5C300FE9D81 /* Preview Assets.xcassets in Resources */,
+				12B053AD2B0CE5C300FE9D81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B053B32B0CE5C400FE9D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B053BD2B0CE5C400FE9D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12B053A12B0CE5C100FE9D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B053AB2B0CE5C100FE9D81 /* ContentView.swift in Sources */,
+				12B053A92B0CE5C100FE9D81 /* VidenteCaindoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B053B12B0CE5C400FE9D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B053BA2B0CE5C400FE9D81 /* VidenteCaindoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B053BB2B0CE5C400FE9D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B053C62B0CE5C400FE9D81 /* VidenteCaindoUITestsLaunchTests.swift in Sources */,
+				12B053C42B0CE5C400FE9D81 /* VidenteCaindoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12B053B72B0CE5C400FE9D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12B053A42B0CE5C100FE9D81 /* VidenteCaindo */;
+			targetProxy = 12B053B62B0CE5C400FE9D81 /* PBXContainerItemProxy */;
+		};
+		12B053C12B0CE5C400FE9D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12B053A42B0CE5C100FE9D81 /* VidenteCaindo */;
+			targetProxy = 12B053C02B0CE5C400FE9D81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12B053C72B0CE5C400FE9D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12B053C82B0CE5C400FE9D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12B053CA2B0CE5C400FE9D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VidenteCaindo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.VidenteCaindo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12B053CB2B0CE5C400FE9D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VidenteCaindo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.VidenteCaindo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12B053CD2B0CE5C400FE9D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.VidenteCaindoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VidenteCaindo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VidenteCaindo";
+			};
+			name = Debug;
+		};
+		12B053CE2B0CE5C400FE9D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.VidenteCaindoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VidenteCaindo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VidenteCaindo";
+			};
+			name = Release;
+		};
+		12B053D02B0CE5C400FE9D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.VidenteCaindoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VidenteCaindo;
+			};
+			name = Debug;
+		};
+		12B053D12B0CE5C400FE9D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.VidenteCaindoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VidenteCaindo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12B053A02B0CE5C100FE9D81 /* Build configuration list for PBXProject "VidenteCaindo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B053C72B0CE5C400FE9D81 /* Debug */,
+				12B053C82B0CE5C400FE9D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12B053C92B0CE5C400FE9D81 /* Build configuration list for PBXNativeTarget "VidenteCaindo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B053CA2B0CE5C400FE9D81 /* Debug */,
+				12B053CB2B0CE5C400FE9D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12B053CC2B0CE5C400FE9D81 /* Build configuration list for PBXNativeTarget "VidenteCaindoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B053CD2B0CE5C400FE9D81 /* Debug */,
+				12B053CE2B0CE5C400FE9D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12B053CF2B0CE5C400FE9D81 /* Build configuration list for PBXNativeTarget "VidenteCaindoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B053D02B0CE5C400FE9D81 /* Debug */,
+				12B053D12B0CE5C400FE9D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12B0539D2B0CE5C100FE9D81 /* Project object */;
+}
